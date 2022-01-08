@@ -7,7 +7,7 @@
 #include <set>
 #include <numeric>
 
-//**namespace (DO NOT USE in Developping)*****************
+//**namespace(DO NOT USE in Developping)******************
 //********************************************************
 using namespace std;
 using ll = long long;
@@ -107,7 +107,7 @@ public:
         return (-1) * parent[root(node_number)];
     }
 
-    //2つのノードが同じ根に繋がっているか返す
+    // 2つのノードが同じ根に繋がっているか返す
     bool is_similar(int node_a, int node_b)
     {
         return root(node_a) == root(node_b);
